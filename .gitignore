@@ -67,8 +67,8 @@ obj/*
 doc/detail/*
 quickVisualTest/*
 temp/*
-checkboxlist.component.js.map
-checkboxlist.component.js
-checkboxlist.component.d.ts
+checkboxlist.js.map
+checkboxlist.js
+checkboxlist.d.ts
 
 
