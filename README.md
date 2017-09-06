@@ -55,7 +55,8 @@ in code sample 'checkboxStyles' is so declared:
 ```
 
 ## Screenshots
-cooming soon!
+![Executing]https://github.com/LuigiSenzamici/ng2-checkboxlist/blob/master/docs/img/checkboxlist-scr.PNG
+![data reading]https://github.com/LuigiSenzamici/ng2-checkboxlist/blob/master/docs/img/checkboxlist-result.PNG
 
 ## Built With
 Typescript
