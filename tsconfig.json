@@ -19,22 +19,7 @@
     
   },
   "files":[
-    "checkboxlist.component.ts"
-  ],
-  "bundles": {
-    "app": {
-        "files": [ "checkboxlist.component.ts" ]
-    },
-    "components": {
-        "files": [
-            "checkboxlist.component.ts"
-        ],
-        "config": {
-      "declaration": true,
-            "outDir": "",
-    "minify": true  
-        }
-    }
-  }
+    "checkboxlist.ts"
+  ]
   
 }
