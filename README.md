@@ -4,7 +4,7 @@ Angular 2 checkbox list component
 ```bash
 npm install ng2-checkboxlist --save
 ```
-##checking before using
+## Checking before using
 this component assume that run under Angular2 application, so has this implicit dependency:
 ```javascript
     "@angular/common": "^4.4.0-RC.0",
@@ -62,8 +62,10 @@ in code sample 'checkboxStyles' is so declared:
 ```
 
 ## Screenshots
-![Executing](http://LuigiSenzamici.com/Content/Image/Common/checkboxlist-scr.PNG)
-![data reading](http://LuigiSenzamici.com/Content/Image/Common/checkboxlist-result.PNG)
+
+![Executing](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist-scr.PNG)
+
+![data reading](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist-result.PNG)
 
 ## Built With
 Typescript
