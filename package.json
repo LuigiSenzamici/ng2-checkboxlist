@@ -1,8 +1,8 @@
 {
   "name": "ng2-checkboxlist",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Angular 2 checkbox list component",
-  "main": "checkboxlist.component.js",
+  "main": "checkboxlist.js",
   "scripts": {
     "debug": "tsc --project ./tsconfig.debug.json",
     "build": "tsc --project ./tsconfig.json",
