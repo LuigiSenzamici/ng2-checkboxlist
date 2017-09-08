@@ -1,6 +1,6 @@
 {
   "name": "ng2-checkboxlist",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Angular 2 checkbox list component",
   "main": "checkboxlist.component.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "checkbox"
+    "checkbox", "ng2-checkbox"
   ],
   "author": "Luigi Senzamici (luigisenzamici@gmail.it)",
   "license": "MIT",
