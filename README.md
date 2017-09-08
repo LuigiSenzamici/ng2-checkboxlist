@@ -4,6 +4,13 @@ Angular 2 checkbox list component
 ```bash
 npm install ng2-checkboxlist --save
 ```
+##checking before using
+this component assume that run under Angular2 application, so has this implicit dependency:
+```javascript
+    "@angular/common": "^4.4.0-RC.0",
+    "@angular/core": "4.4.0-RC.0",
+    "rxjs": "5.4.3"
+```
 ## Simple Use
 import
 ```javascript
