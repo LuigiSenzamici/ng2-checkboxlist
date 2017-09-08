@@ -62,9 +62,10 @@ in code sample 'checkboxStyles' is so declared:
 ```
 
 ## Screenshots
-example of how it is rendered
+### example of how it is rendered
 ![Executing](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist-scr.PNG)
-example of reading listSelected property
+
+### example of reading listSelected property
 ![data reading](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist-result.PNG)
 
 ## Built With
