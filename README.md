@@ -75,7 +75,7 @@ Stylus
 ## Author
 
 [Luigi Senzamici](http://luigisenzamici.com)
-
+### luigisenzamici@gmail.com
 
 ## License
 
