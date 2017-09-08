@@ -100,7 +100,7 @@ export class CheckBoxList{
                 let res ={
                     tagId: ids,
                     value: id,
-                    text: this.list.filter(e=>e.id == id)[0].text
+                    text: this.list.filter(e=>e.id == id)[0][this.value]
                 }
                 this._listSelected.push(res);
                 this.listSelected.emit(this._listSelected);
