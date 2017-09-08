@@ -1,6 +1,6 @@
 {
   "name": "ng2-checkboxlist",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Angular 2 checkbox list component",
   "main": "checkboxlist.component.js",
   "scripts": {

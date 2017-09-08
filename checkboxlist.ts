@@ -44,6 +44,15 @@ export class CheckBoxList{
             });
         }
     }
+    @Input() set theme(value:string){
+        if(value){
+            this.removeClass('all', null);
+            this.setClass('container', ['container-' + value]);
+            this.setClass('title', ['title-' + value]);
+            this.setClass('input', ['input-' + value]);
+            this.setClass('label', ['label-' + value]);
+        }
+    }
     _listSelected:any[] = [];
     @Output() listSelected:EventEmitter<any[]> = new EventEmitter<any[]>();
     containerClasses:string[] = ['container-struct', 'container-base'];
@@ -72,9 +81,16 @@ export class CheckBoxList{
             case 'container': this.containerClasses.splice(this.containerClasses.indexOf(value), 1);break;
             case 'title': this.titleClasses.splice(this.titleClasses.indexOf(value), 1);break;
             case 'input': this.inputClasses.splice(this.inputClasses.indexOf(value), 1);break;
-            case 'label': this.labelClasses.splice(this.labelClasses.indexOf(value), 1);break;    
+            case 'label': this.labelClasses.splice(this.labelClasses.indexOf(value), 1);break;
+            case 'all':{
+                this.containerClasses = ['container-struct'];
+                this.titleClasses= ['title-struct'];
+                this.inputClasses = [];
+                this.labelClasses = [];
+            }   
         }
     }
+    
     private clickManage(id:string){
         let ids = "checkb-" + id;
         let nodo = (document.getElementById(ids)) as HTMLInputElement;

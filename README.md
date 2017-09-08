@@ -63,10 +63,39 @@ in code sample 'checkboxStyles' is so declared:
 
 ## Screenshots
 ### example of how it is rendered
-![Executing](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist-scr.PNG)
+![Executing](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist/checkboxlist-scr.PNG)
 
 ### example of reading listSelected property
-![data reading](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist-result.PNG)
+![data reading](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist/checkboxlist-result.PNG)
+
+## Theming
+it's also possible set a theme [dark or light] using input property theme:
+```html
+<!-- app.component.html file -->
+<checkbox-list 
+               [title]="'choose a number'"
+               [list]="listItemToPass" 
+               [id] ="'id'"
+               [value] = "'text'"
+               [theme] = "'dark'" 
+               (listSelected) = "itemSelectedManager($event)"
+               ></checkbox-list>
+```
+For using css file theme you have to set styles property in .angular-cli.json like so:
+```javascript
+      "styles": [
+        "styles.css",
+        "../node_modules/ng2-checkboxlist/theme/checkboxlist.dark.css",
+        "../node_modules/ng2-checkboxlist/theme/checkboxlist.light.css"
+      ],
+```
+[IMPORTANT] if you are under ng serve command you have to stop and repeat command (.angular-cli.json isn't watch by angular compiler)
+
+### Dark Theme screeshoot
+![Dark Theme screeshoot](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist/checkboxlist-dark-theme.PNG)
+
+### Light Theme screenshoot
+![Light Theme screenshoot](http://LuigiSenzamici.com/Content/Images/Common/checkboxlist/checkboxlist-light-theme.PNG)
 
 ## Built With
 Typescript

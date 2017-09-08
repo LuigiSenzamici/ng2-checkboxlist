@@ -55,6 +55,7 @@ jspm_packages
 gulpfile.js
 
 doc/*
+docs/*
 src/*
 test/*
 temp/*
