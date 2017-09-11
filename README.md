@@ -1,5 +1,5 @@
 # Check Box List
-Angular 2 checkbox list component
+Angular 2 checkbox list component with theming, no dependencys and customizable styles
 ## Getting Started
 ```bash
 npm install ng2-checkboxlist --save
